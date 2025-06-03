@@ -1,0 +1,125 @@
+.about-scroll-container {
+  position: relative;
+  height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+.about-grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 120px);
+}
+
+.about-grid-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1rem;
+}
+
+.image-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: calc(100vh - 120px);
+  overflow: hidden;
+}
+
+.about-content-half,
+.about-image-half {
+  margin: 0 auto;
+}
+
+.education-box {
+  margin-top: auto;
+}
+.about-content,
+.education-content {
+  padding: 1rem;
+  font-size: 0.875rem;
+}
+.about-content h1,
+.education-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  border-bottom: var(--primary-color) 4px solid;
+  padding: 0.5rem;
+}
+.education-content h1 {
+  text-align: right;
+}
+.about-content p {
+  text-align: right;
+}
+.education-content p {
+  text-align: left;
+}
+.about-socials {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.download-btn {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: var(--primary-color) 0.3s ease;
+}
+.about-socials .download-btn {
+  margin: 0;
+  display: inline-block;
+}
+
+.education-list {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 2.5rem;
+}
+
+.education-list li {
+  position: relative;
+  padding-left: 2em;
+  margin-bottom: 0.5em;
+}
+
+.education-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.4em;
+  width: 1.2em;
+  height: 1.2em;
+  background: url("C:/Users/shrut/Shruti/Study/Portfolio-react/public/gratipay-brands.svg")
+    no-repeat center/contain;
+}
+.hero-socials {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .about-grid-section {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .about-grid-column {
+    align-items: center;
+  }
+
+  .education-box {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 480px) {
+}
