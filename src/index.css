@@ -23,14 +23,14 @@ body {
   --background-color: #ffffff;
   --text-color: #121212;
   --accent-color: #007bff;
-  --primary-color: rgb(255, 105, 180);
+  --primary-color: #ff69b4;
+  --secondary-color: #402647;
   --card-bg: #f9f9f9;
 }
 
 [data-theme="dark"] {
-  --background-color: #1a1a1a;
+  --background-color: #402647;
   --text-color: #f1f1f1;
-  /* --card-bg: #1e1e1e; */
 }
 
 .App {

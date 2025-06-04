@@ -1,0 +1,128 @@
+
+.identification-container {
+  max-width: 430px;
+  margin: 3rem auto;
+  padding: 2.5rem 2rem;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(60, 30, 90, 0.09);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.identification-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: var(--secondary-color);
+  font-family: "Lobster", cursive;
+}
+
+
+.identification-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  .identification-container {
+    padding: 1.2rem 0.5rem;
+  }
+  .form-row {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.35em;
+  color: #402647;
+  font-size: 1rem;
+}
+
+label span {
+  color: #ff0000;
+  margin-left: 2px;
+}
+
+input,
+textarea,
+select {
+  padding: 0.7em 1em;
+  border-radius: 7px;
+  border: 1.5px solid #d1c4e9;
+  font-size: 1rem;
+  background: #faf8fc;
+  color: #2d1a3a;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+  resize: none;
+}
+
+input#email {
+  font-size: 0.95rem;
+  padding: 0.6em 0.9em;
+}
+
+input#phone {
+  font-size: 0.95rem;
+  padding: 0.6em 0.9em;
+  max-width: 180px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #a259ff;
+  box-shadow: 0 0 0 2px rgba(162, 89, 255, 0.13);
+}
+
+.identification-btn {
+  margin-top: 0.5rem;
+  background-color: rgb(255, 105, 180);
+  color: #fff;
+  border: none;
+  padding: 0.8em 2.2em;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  align-self: flex-end;
+  letter-spacing: 0.5px;
+}
+
+.identification-btn:hover {
+  background: #402647;
+}
+
+.form-error {
+  color: #d32f2f;
+  font-size: 0.93em;
+  margin-top: 0.2em;
+}
+
+.form-success {
+  color: #388e3c;
+  font-size: 1.05em;
+  margin-top: 1.2em;
+  text-align: center;
+  font-weight: 600;
+}

@@ -46,16 +46,16 @@ const About = () => {
               <h1 className="lobster">Education</h1>
               <ul className="education-list">
                 <li>
-                  Master’s in Computer Science - Portland State University -
-                  June 2024
+                  Master’s in Computer Science - Portland State University
+                  (June 2024)
                 </li>
                 <li>
                   Bachelor’s in Computer Engineering - Savitribai Phule Pune
-                  University - August 2021
+                  University (August 2021)
                 </li>
                 <li>
                   Diploma in Computer Engineering - Government Polytechnic Pune
-                  - August 2018
+                  (August 2018)
                 </li>
               </ul>
             </div>

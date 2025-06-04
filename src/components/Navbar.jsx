@@ -44,6 +44,11 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/identification" onClick={() => setMenuOpen(false)}>
+            Identification
+          </NavLink>
+        </li>
+        <li>
           <button className="theme-toggle" onClick={toggleTheme}>
             <i
               className={`fa-solid ${theme === "light" ? "fa-moon" : "fa-sun"}`}
