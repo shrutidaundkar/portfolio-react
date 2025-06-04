@@ -1,5 +1,4 @@
 import "./About.css";
-import profilePic from "../../assets/background.jpg";
 import Socials from "./Socials";
 const About = () => {
   return (
@@ -36,7 +35,7 @@ const About = () => {
 
         <div className="about-grid-column image-center">
           <div className="about-image-half">
-            <img src={profilePic} alt="Shruti Daundkar" />
+            <img src="/background.jpg" alt="Shruti Daundkar" />
           </div>
         </div>
 

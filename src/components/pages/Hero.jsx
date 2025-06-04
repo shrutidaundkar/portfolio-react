@@ -1,5 +1,4 @@
 import "./Hero.css";
-import profilePic from "../../assets/Shruti.jpg";
 import Socials from "./Socials";
 
 export default function Hero() {
@@ -14,7 +13,7 @@ export default function Hero() {
         <Socials />
       </div>
       <div className="hero-image">
-        <img src={profilePic} alt="Shruti Daundkar" />
+        <img src="/Shruti.jpg" alt="Shruti Daundkar" />
       </div>
       {/* <div className="hero-more">
         About Me <i className="fa-solid fa-right-long"></i>

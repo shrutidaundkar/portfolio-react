@@ -37,6 +37,7 @@ const Gallery = () => {
             className="gallery-img"
             onClick={() => openModal(img)}
             style={{ cursor: "pointer" }}
+            loading="lazy"
           />
         ))}
       </Masonry>

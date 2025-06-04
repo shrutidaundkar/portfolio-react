@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "./Contact.css";
-
 const initialState = {
   name: "",
   email: "",
@@ -93,7 +92,7 @@ const Contact = () => {
         <div className="contact-info-col">
           <div>
             <div className="contact-image-container">
-              <img src="src/assets/woman.png" alt="Shruti Daundkar" className="contact-image" />
+              <img src="woman.png" alt="Shruti Daundkar" className="contact-image" />
             </div>
             <ul className="contact-socials-list">
               {socials.map((s) => (
