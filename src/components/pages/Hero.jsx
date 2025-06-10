@@ -13,7 +13,7 @@ export default function Hero() {
         <Socials />
       </div>
       <div className="hero-image">
-        <img src="/Shruti.jpg" alt="Shruti Daundkar" />
+        <img src="/Shruti.webp" alt="Shruti Daundkar" />
       </div>
       {/* <div className="hero-more">
         About Me <i className="fa-solid fa-right-long"></i>

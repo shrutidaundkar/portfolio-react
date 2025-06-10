@@ -35,7 +35,7 @@ const About = () => {
 
         <div className="about-grid-column image-center">
           <div className="about-image-half">
-            <img src="/background.jpg" alt="Shruti Daundkar" />
+            <img src="/grad-img.webp" alt="Shruti Daundkar" />
           </div>
         </div>
 
